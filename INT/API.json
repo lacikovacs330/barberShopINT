@@ -1,0 +1,185 @@
+{
+	"info": {
+		"_postman_id": "44ddafb4-e199-4299-9a8a-b52afbe5d9fc",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "26917987"
+	},
+	"item": [
+		{
+			"name": "http://localhost/MobileWeb/INT/login.php",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "id_salon",
+						"value": "19",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\": \"lacikovacs330\",\r\n    \"password\": \"Asdasd123\"\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost/MobileWeb/INT/login.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"MobileWeb",
+						"INT",
+						"login.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/barberShop/INT/create_salon.php",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"ownername\": \"EzPez\",\r\n    \"firstname\": \"Ez\",\r\n    \"lastname\": \"Pez\",\r\n    \"password\": \"Asdasd123\",\r\n    \"email\": \"lacikovacs330@gmail.com\",\r\n    \"salon\": \"EzPez1\",\r\n    \"image\": \"Coiffeur.jpg\",\r\n    \"description\": \"ASDASDASD\"\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost/barberShop/INT/create_salon.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"barberShop",
+						"INT",
+						"create_salon.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/MobileWeb/INT/update_salon.php",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id_salon\": \"33\",\r\n    \"name\":\"ASD33\",\r\n    \"image\":\"32\",\r\n    \"description\":\"21\",\r\n    \"status\":\"1\"\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost/MobileWeb/INT/update_salon.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"MobileWeb",
+						"INT",
+						"update_salon.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/MobileWeb/INT/select_salon2.php",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": \"255\"\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost/MobileWeb/INT/select_salon2.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"MobileWeb",
+						"INT",
+						"select_salon2.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/MobileWeb/INT/select_salon.php",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost/MobileWeb/INT/select_salon.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"MobileWeb",
+						"INT",
+						"select_salon.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/MobileWeb/INT/register.php",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\":\"asd\",\r\n    \"password\":\"asdasd123\",\r\n    \"password2\":\"asdasd123\",\r\n    \"fname\":\"ASD\",\r\n    \"lname\":\"ASD\",\r\n    \"email\":\"asd@email.com\"\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost/MobileWeb/INT/register.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"MobileWeb",
+						"INT",
+						"register.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/MobileWeb/INT/delete_salon.php",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id_salon\":\"13\"\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost/MobileWeb/INT/delete_salon.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"MobileWeb",
+						"INT",
+						"delete_salon.php"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

@@ -9,13 +9,32 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@react-navigation/native": "^6.1.6",
+    "@react-navigation/native-stack": "^6.9.12",
+    "base64-js": "^1.5.1",
     "expo": "~48.0.11",
+    "expo-document-picker": "^11.2.2",
+    "expo-image-picker": "^14.1.1",
     "expo-status-bar": "~1.4.4",
+    "formik": "^1.5.8",
+    "mime": "^3.0.0",
+    "path": "^0.12.7",
     "react": "18.2.0",
-    "react-native": "0.71.6"
+    "react-native": "0.71.8",
+    "react-native-document-picker": "^8.2.0",
+    "react-native-formik": "^1.7.8",
+    "react-native-fs": "^2.20.0",
+    "react-native-gesture-handler": "^2.9.0",
+    "react-native-image-base64": "^0.1.4",
+    "react-native-image-crop-picker": "^0.39.0",
+    "react-native-image-picker": "^5.3.1",
+    "react-native-safe-area-context": "4.5.0",
+    "react-native-screens": "~3.20.0",
+    "styled-components": "^5.3.9"
   },
   "devDependencies": {
-    "@babel/core": "^7.20.0"
+    "@babel/core": "^7.20.0",
+    "@react-native-community/cli-platform-ios": "^11.2.3"
   },
   "private": true
 }
